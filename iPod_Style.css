@@ -1,0 +1,73 @@
+*{
+    height: 0;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+body{
+    width: 320px;
+    max-height: 240px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: none;
+    font-size: 16px;
+    text-align: justify-all;
+    background-color: white;
+}
+.MENU_ITEM, .topbar{
+    width: 320px;
+    height: 24px;
+}
+
+.topbar{
+    background: linear-gradient(to top, #aaaaaa, #eeeeee);
+    text-align: center;
+}
+.MENU_ITEM:hover{
+    background: linear-gradient(to top, #2193b0, #6dd5ed);
+}
+.iPod_BODY{
+    width: 368px;
+    height: 600px;
+    background: linear-gradient(45deg, #000000, #222222);
+    border-radius: 20px;
+    margin: 24px;
+    position: relative;
+}
+.display_area{
+    width: 320px;
+    height: 240px;
+    background-color: #444;
+    border-radius: 5px;
+    border: 20px;
+    padding: 4px;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.screen{
+    width: 320px;
+    height: 240px;
+    background-color: white;
+    border: 24px;
+    position: absolute;
+}
+
+.clickWheel{
+    position: absolute;
+    background: linear-gradient(45deg, #111, #333);
+    width:228px;
+    height: 228px;
+    border-radius: 50%;
+    margin: 310px 70px;
+}
+.centerButton{
+    position: absolute;
+    background: linear-gradient(45deg, #000000, #222222);
+    width:84px;
+    height: 84px;
+    border-radius: 50%;
+    margin: 72px 72px;
+}
+

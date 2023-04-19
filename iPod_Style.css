@@ -4,24 +4,40 @@
     border: 0;
     margin: 0;
 }
+a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+button, p{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 4px;
+    background-color: transparent;
+    display: inline;
+}
 body{
     width: 320px;
     max-height: 240px;
-    font-family: sans-serif;
-    font-weight: bold;
     text-transform: none;
-    font-size: 16px;
-    text-align: justify-all;
-    background-color: white;
+    background-color: white;    
 }
 .MENU_ITEM, .topbar{
     width: 320px;
     height: 24px;
 }
-
 .topbar{
     background: linear-gradient(to top, #aaaaaa, #eeeeee);
     text-align: center;
+}
+.MENU_ITEM{
+    display: flex;
+    justify-content: space-between;
+}
+p{   
+    align-items: right;
 }
 .MENU_ITEM:hover{
     background: linear-gradient(to top, #2193b0, #6dd5ed);
@@ -45,7 +61,6 @@ body{
     margin-top: 20px;
     position: absolute;
 }
-
 .screen{
     width: 320px;
     height: 240px;
@@ -53,10 +68,9 @@ body{
     border: 24px;
     position: absolute;
 }
-
 .clickWheel{
     position: absolute;
-    background: linear-gradient(45deg, #111, #333);
+    background: linear-gradient(225deg, #111, #333);
     width:228px;
     height: 228px;
     border-radius: 50%;
@@ -69,5 +83,35 @@ body{
     height: 84px;
     border-radius: 50%;
     margin: 72px 72px;
+}
+.clickWheel_Button{
+    color: white;
+    display: flex;
+    font-size: 16px;
+    display: relative;
+}
+.MENU{
+  position: fixed;
+  width:334px;
+  top: 340px;
+  right: 0;
+}
+.BACK{
+    position: fixed;
+    width:415px;
+    top: 435px;
+    right: 0;
+}
+.FORTH{
+    position: fixed;
+    width:230px;
+    top: 435px;
+    right: 0;
+}
+.PLAY{
+    position: fixed;
+    width:320px;
+    top: 530px;
+    right: 0;
 }
 
